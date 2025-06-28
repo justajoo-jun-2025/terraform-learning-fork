@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   required_providers {
     google = {
       source = "hashicorp/google"
@@ -15,4 +15,4 @@ provider "google" {
 resource "google_compute_network"  "example" {
   name = "test-vpc-hcp"
   auto_create_subnetworks = false
-  }
+  }*/
